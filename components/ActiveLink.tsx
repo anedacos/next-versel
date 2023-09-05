@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { CSSProperties } from "react";
-import { Url } from "next/dist/shared/lib/router/router";
 
 const style: CSSProperties = {
   color: "#0070f3",

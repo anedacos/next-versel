@@ -1,5 +1,3 @@
-import { Navbar } from "../Navbar";
-
 interface Props {
   children: React.ReactNode;
 }
@@ -15,7 +13,6 @@ export const DarkLayout: React.FC<Props> = ({ children }) => {
     >
       <h3>Dark Layout</h3>
       <div>{children}</div>
-      <Navbar />
     </div>
   );
 };
