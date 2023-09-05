@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { MainLayout } from "../components/layouts/MainLayout";
-import { DarkLayout } from "../components/layouts/DarkLayout";
+import { MainLayout } from "../../components/layouts/MainLayout";
+import { DarkLayout } from "../../components/layouts/DarkLayout";
 
 export default function AboutPage() {
   return (
@@ -8,7 +8,7 @@ export default function AboutPage() {
       <DarkLayout>
         <h1 className={"title"}>
           {/* Ir a <a href='/about'> About</a> */}
-          Ir a <Link href="">Home</Link>
+          Hola bobito, pilas para ir a <Link href="">Home</Link>
         </h1>
         <div className={"description"}>
           <p>
